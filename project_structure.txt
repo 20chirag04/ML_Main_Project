@@ -1,0 +1,151 @@
+Folder PATH listing for volume OS
+Volume serial number is 0000009D 0881:7881
+C:.
+|   .gitignore
+|   app.py
+|   Procfile
+|   project_structure.txt
+|   README.md
+|   requirements.txt
+|   setup.py
+|   
++---.ebextensions
+|       python.config
+|       
++---.ipynb_checkpoints
++---.vscode
+|       settings.json
+|       
++---artifacts
+|       data.csv
+|       model.pkl
+|       preprocessor.pkl
+|       test.csv
+|       train.csv
+|       
++---catboost_info
+|   |   catboost_training.json
+|   |   learn_error.tsv
+|   |   time_left.tsv
+|   |   
+|   +---learn
+|   |       events.out.tfevents
+|   |       
+|   \---tmp
++---Data
+|   |   data.csv
+|   |   EDA.ipynb
+|   |   Model Training.ipynb
+|   |   
+|   +---.ipynb_checkpoints
+|   |       data-checkpoint.csv
+|   |       EDA-checkpoint.ipynb
+|   |       Model Training-checkpoint.ipynb
+|   |       
+|   \---catboost_info
+|       |   catboost_training.json
+|       |   learn_error.tsv
+|       |   time_left.tsv
+|       |   
+|       +---learn
+|       |       events.out.tfevents
+|       |       
+|       \---tmp
++---logs
+|   +---07_17_2026_14_43_38.log
+|   |       07_17_2026_14_43_38.log
+|   |       
+|   +---07_17_2026_14_44_43.log
+|   |       07_17_2026_14_44_43.log
+|   |       
+|   +---07_17_2026_14_45_52.log
+|   |       07_17_2026_14_45_52.log
+|   |       
+|   +---07_17_2026_14_48_27.log
+|   |       07_17_2026_14_48_27.log
+|   |       
+|   +---07_17_2026_14_51_32.log
+|   |       07_17_2026_14_51_32.log
+|   |       
+|   +---07_17_2026_14_53_34.log
+|   |       07_17_2026_14_53_34.log
+|   |       
+|   +---07_17_2026_15_09_56.log
+|   |       07_17_2026_15_09_56.log
+|   |       
+|   +---07_17_2026_15_10_00.log
+|   |       07_17_2026_15_10_00.log
+|   |       
+|   +---07_17_2026_15_11_33.log
+|   |       07_17_2026_15_11_33.log
+|   |       
+|   +---07_17_2026_15_13_09.log
+|   |       07_17_2026_15_13_09.log
+|   |       
+|   +---07_17_2026_15_15_28.log
+|   |
+|   +---07_17_2026_21_53_34.log
+|   |       07_17_2026_21_53_34.log
+|   |       
+|   +---07_17_2026_21_56_26.log
+|   |       07_17_2026_21_56_26.log
+|   |       
+|   +---07_19_2026_20_41_14.log
+|   |       07_19_2026_20_41_14.log
+|   |       
+|   +---07_19_2026_20_41_17.log
+|   |       07_19_2026_20_41_17.log
+|   |       
+|   \---07_19_2026_20_44_29.log
+|           07_19_2026_20_44_29.log
+|           
++---ML_Project.egg-info
+|       dependency_links.txt
+|       PKG-INFO
+|       requires.txt
+|       SOURCES.txt
+|       top_level.txt
+|       
++---src
+|   |   exceptions.py
+|   |   logger.py
+|   |   utils.py
+|   |   __init__.py
+|   |   
+|   +---components
+|   |   |   data_ingestion.py
+|   |   |   data_transformation.py
+|   |   |   model_trainer.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           data_transformation.cpython-312.pyc
+|   |           model_trainer.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---pipeline
+|   |   |   predict_pipeline.py
+|   |   |   train_pipeline.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           predict_pipeline.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           exceptions.cpython-312.pyc
+|           logger.cpython-312.pyc
+|           utils.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---templates
+|       home.html
+|       index.html
+|       
+\---venv
+    etc
+    share
+    include
+    Scripts
+    lib
+    pyvenv.cfg  
